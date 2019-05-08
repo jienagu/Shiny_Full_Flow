@@ -7,3 +7,6 @@
 
 Live app: https://appforiarteam.shinyapps.io/Shiny_Plotly/ 
 
+* Log in
+![gif1](Login.gif)
+
