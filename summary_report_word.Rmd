@@ -1,0 +1,22 @@
+---
+title: "Summary Report"
+author:  "`r input$author`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: word_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+
+
+```{r Interval1, out.width = "510px"}
+saveWidget(pie_reactive(), file= 'temp_Pivot_single.html')
+respivot = webshot::webshot('temp_Pivot_single.html','my-screenshot-Pivot_single.png', zoom = 1.2)
+knitr::include_graphics(respivot)
+```
+
+
+```{r Interval2, warning = FALSE}
+note_in_md_word(input$markdowninput)
+```

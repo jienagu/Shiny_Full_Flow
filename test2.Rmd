@@ -1,0 +1,23 @@
+---
+title: "Summary Presentation"
+author: "`r input$author`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Pie Chart of your input
+
+
+```{r plot, out.width = "85%"}
+pie_reactive()
+```
+
+## Your Comments
+
+`r input$markdowninput`
+
