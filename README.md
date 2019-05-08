@@ -10,3 +10,20 @@ Live app: https://appforiarteam.shinyapps.io/Shiny_Plotly/
 * Log in
 ![gif1](Login.gif)
 
+* Data Entry from UI side
+![gif2](Entry.gif)
+
+* Drill down (interactive data visualization)
+![gif3](Drill.gif)
+
+* Dynamic Report
+![gif4](Report.gif)
+
+* Dynamic Presentation
+![gif5](Presentation.gif)
+
+
+### Acknowledgement
+
+Inspired by a post from @cpsievert on @rstudio community forum (https://community.rstudio.com/t/shiny-developer-series-episode-1-follow-up-thread/29491). 
+
