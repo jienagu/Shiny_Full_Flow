@@ -11,6 +11,7 @@ Live app: https://appforiarteam.shinyapps.io/Shiny_Plotly/
 ![gif1](Login.gif)
 
 * Data Entry from UI side
+Note: Here is a DT editor shiny module that can fit for any data.table. You just need to create your data.table and load it to the same location of your shiny app as note.rds Repo: https://github.com/jienagu/DT_editor_shiny_module
 ![gif2](Entry.gif)
 
 * Drill down (interactive data visualization)
